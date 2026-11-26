@@ -1,0 +1,68 @@
+{
+  "random_seed": 42,
+  "data_md5": "352820e95c947d0da671e4ed66fbe01c",
+  "n_rows": 500,
+  "features": [
+    "Cultivated_Area_ha",
+    "pH",
+    "Total_N_percent",
+    "Available_P_ppm",
+    "Exchangeable_K_ppm",
+    "Organic_C_percent",
+    "Fertilizer_Used",
+    "Soil_Type",
+    "Annual_Temperature_C",
+    "Precipitation_mm_day",
+    "Relative_Humidity_percent",
+    "Wind_Speed_m_s",
+    "Solar_Radiation_MJ_m2_day",
+    "Soil_Wetness"
+  ],
+  "target": "Production_tons",
+  "cv_type": "year-blocked expanding window (5 folds, indivisible years)",
+  "selection_rule": "1-SE threshold + parsimony heuristic (not a formal test)",
+  "selected_model": "LinearRegression",
+  "selected_params": {},
+  "bootstrap": {
+    "unit": "district-year block",
+    "type": "percentile",
+    "n_boot": 2000,
+    "seed": 42
+  },
+  "robustness_checks": {
+    "district_year_aggregation": {
+      "Model": "LinearRegression (district-year aggregated)",
+      "N_train": 64,
+      "N_test": 15,
+      "Test_R2": 0.9731,
+      "Test_RMSE": 1326.22,
+      "Test_MAE": 1049.25
+    },
+    "lodo_range": [
+      0.8192,
+      0.8507
+    ],
+    "bootstrap_sensitivity": {
+      "district_year": [
+        0.7922368502818647,
+        0.869050884745878
+      ],
+      "year": [
+        0.8242337784364865,
+        0.8618420036610038
+      ]
+    }
+  },
+  "nasa_power_retrieval_date": "2024-11-21",
+  "nasa_power_parameters": {
+    "temperature": "TS",
+    "precipitation": "PRECTOTCORR",
+    "relative_humidity": "RH2M",
+    "wind_speed": "WS2M",
+    "solar_radiation": "ALLSKY_SFC_SW_DWN",
+    "soil_wetness": "GWETROOT"
+  },
+  "spatial_assignment": "district centroid \u2192 nearest 0.5\u00b0\u00d70.625\u00b0 NASA POWER grid cell; multiple districts may share a cell (documented in Methods)",
+  "external_validation_performed": false,
+  "operational_scope": "retrospective"
+}

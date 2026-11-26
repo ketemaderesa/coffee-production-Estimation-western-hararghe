@@ -1,0 +1,22 @@
+{
+  "district_in_features": false,
+  "year_in_features": false,
+  "train_test_years_disjoint": true,
+  "cv_folds_years_disjoint": true,
+  "n_train": 389,
+  "n_test": 111,
+  "train_years": [
+    2000,
+    2012
+  ],
+  "test_years": [
+    2013,
+    2015
+  ],
+  "lodo_performed": true,
+  "lodo_n_districts": 5,
+  "aggregation_robustness_performed": true,
+  "bootstrap_sensitivity_performed": true,
+  "external_validation_performed": false,
+  "operational_scope": "retrospective estimation (same-year area + full-year weather)"
+}

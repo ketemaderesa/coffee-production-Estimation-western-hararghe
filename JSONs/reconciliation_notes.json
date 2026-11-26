@@ -1,0 +1,32 @@
+{
+  "file_purpose": "Explains district-identifier reconciliation; supports Section 2.3",
+  "data_file": "Coff_Poduction.csv",
+  "data_md5": "352820e95c947d0da671e4ed66fbe01c",
+  "n_rows": 500,
+  "n_districts": 5,
+  "year_range": [
+    2000,
+    2015
+  ],
+  "recording_unit_note": "REPEATED RECORDS per district-year detected: the modelling row is NOT a district-year total. No sub-district identifier is present in the CSV, so the exact recording unit (farm / cooperative / site / report) CANNOT be recovered from the supplied file. Aggregation robustness on district-year totals is reported separately (Table S10).",
+  "recording_unit_evidence": {
+    "unique_district_year_cells": 79,
+    "rows_per_district_year": {
+      "min": 2,
+      "median": 6,
+      "max": 13
+    },
+    "sub_district_identifier_present_in_csv": false
+  },
+  "district_id_available_in_csv": true,
+  "district_name_map_applied": {
+    "Boke": "Boke",
+    "D/Labu": "Dara Labu",
+    "Habro": "Habro",
+    "Mesela": "Shanan_dhugoo",
+    "Tulo": "Tulo"
+  },
+  "manuscript_section_2_3_claim_no_district_id": false,
+  "reconciliation": "Section 2.3 statement that modeling data lack observation-level district identifiers is INCORRECT: the District column is present and used for grouping (group_keys, LODO, persistence, Table S2). Section 3.1 is correct.",
+  "aggregation_robustness_table": "tables/Table_S10_Aggregation_Robustness.csv"
+}
