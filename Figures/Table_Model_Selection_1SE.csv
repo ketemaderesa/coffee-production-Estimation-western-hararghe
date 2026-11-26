@@ -1,0 +1,8 @@
+Model,CV_R2_Mean,CV_R2_SE,N_tuned_params,Within_1SE,Selected
+Ridge,0.84806,0.01857,1,True,False
+ElasticNet,0.8466,0.01887,2,True,False
+LinearRegression,0.8425,0.02291,0,True,True
+XGBoost,0.83985,0.02418,3,True,False
+GradientBoosting,0.82721,0.02584,2,False,False
+RandomForest,0.80886,0.02576,2,False,False
+SVR,0.40822,0.06911,2,False,False

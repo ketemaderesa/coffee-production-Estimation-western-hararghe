@@ -1,0 +1,16 @@
+variable,type,units,levels,min,max,mean
+Cultivated_Area_ha,numeric,hectares,,4202.352,20603.301,11134.12
+pH,numeric,pH units,,5.0,6.69,5.831
+Total_N_percent,numeric,%,,0.06,0.2,0.129
+Available_P_ppm,numeric,ppm,,7.0,14.99,11.154
+Exchangeable_K_ppm,numeric,ppm,,91.4,597.0,304.083
+Organic_C_percent,numeric,%,,0.51,1.89,1.199
+Fertilizer_Used,numeric,,,0.0,1.0,0.938
+Soil_Type,categorical,,Brown clay; Loamy-sand; Red sandy-loam; Sandy-clay; Volcanic clay-loam,,,
+Annual_Temperature_C,numeric,°C,,32.0,37.0,34.471
+Precipitation_mm_day,numeric,mm/day,,1.11,4.0,2.51
+Relative_Humidity_percent,numeric,%,,45.0,65.94,55.541
+Wind_Speed_m_s,numeric,m/s,,2.31,9.4,5.808
+Solar_Radiation_MJ_m2_day,numeric,MJ/m²/day,,21.0,23.5,22.245
+Soil_Wetness,numeric,dimensionless,,0.4,0.7,0.555
+Production_tons,numeric,metric tons,,518.2,6509.0,2515.854

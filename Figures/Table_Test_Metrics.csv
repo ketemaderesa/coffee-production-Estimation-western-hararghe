@@ -1,0 +1,8 @@
+Model,Test_R2,Test_RMSE,Test_MAE,Test_nRMSE_pct,Selected
+XGBoost,0.8559,443.27,340.75,16.58,False
+GradientBoosting,0.8527,448.18,341.68,16.77,False
+ElasticNet,0.8419,464.28,357.06,17.37,False
+Ridge,0.8409,465.76,360.17,17.43,False
+LinearRegression,0.8378,470.3,365.59,17.6,True
+RandomForest,0.8338,476.12,371.12,17.81,False
+SVR,0.5244,805.32,567.16,30.13,False

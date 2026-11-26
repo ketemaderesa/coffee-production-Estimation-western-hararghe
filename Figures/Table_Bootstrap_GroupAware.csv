@@ -1,0 +1,4 @@
+Metric,Lower,Upper,Unit,Type,n_valid
+R2,0.7922368502818647,0.869050884745878,district-year block,percentile,2000
+RMSE,425.740077562797,514.7016063800448,district-year block,percentile,2000
+MAE,334.05505502038517,394.48381401252067,district-year block,percentile,2000

@@ -1,0 +1,2 @@
+Model,N_train,N_test,Test_R2,Test_RMSE,Test_MAE
+LinearRegression (district-year aggregated),64,15,0.9731,1326.22,1049.25

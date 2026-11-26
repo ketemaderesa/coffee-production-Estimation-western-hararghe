@@ -1,0 +1,7 @@
+Variable,Code,Temporal_aggregation,Spatial_assignment
+Temperature,TS (skin temperature),Annual mean,"District centroid, 0.5° × 0.625° cell"
+Precipitation,PRECTOTCORR,Annual mean daily rate (mm day⁻¹),"District centroid, 0.5° × 0.625° cell"
+Relative humidity,RH2M,Annual mean,"District centroid, 0.5° × 0.625° cell"
+Wind speed,WS2M,Annual mean,"District centroid, 0.5° × 0.625° cell"
+Solar radiation,ALLSKY_SFC_SW_DWN,Annual mean,"District centroid, 0.5° × 0.625° cell"
+Soil wetness,GWETROOT,Annual mean,"District centroid, 0.5° × 0.625° cell"

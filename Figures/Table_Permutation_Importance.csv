@@ -1,0 +1,15 @@
+Feature,Importance_Mean_deltaR2,Importance_SD
+Cultivated_Area_ha,1.158054,0.117858
+Soil_Type,0.081672,0.0189
+Fertilizer_Used,0.009218,0.007284
+pH,0.005175,0.00635
+Organic_C_percent,0.001496,0.006442
+Available_P_ppm,0.00043,0.00091
+Relative_Humidity_percent,0.000242,0.000247
+Total_N_percent,0.000144,0.002463
+Precipitation_mm_day,3.1e-05,0.000939
+Annual_Temperature_C,2e-06,0.001363
+Exchangeable_K_ppm,-0.000146,0.005227
+Solar_Radiation_MJ_m2_day,-0.000657,0.000977
+Soil_Wetness,-0.001713,0.001566
+Wind_Speed_m_s,-0.003529,0.002898
